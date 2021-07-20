@@ -1,0 +1,3 @@
+/// @description Die
+
+Kill();
