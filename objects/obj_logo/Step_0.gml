@@ -2,7 +2,10 @@
 
 if !menu { //Press Start!
 	if keyboard_check_pressed(ord("Z")) {
-		menu = true;
+		alarm[0] = 60;
+		show = false;
+		flash = 1;
+		flashMax = 5;
 	}
 } else { //Select an option :3
 	if keyboard_check_pressed(vk_down) {
