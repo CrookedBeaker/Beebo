@@ -15,4 +15,11 @@ function SetDefaultGlobals(){
 }
 
 SetDefaultGlobals();
-SetSFXGain(0.5);
+SetSFXGain(0.3);
+display_set_gui_size(128,128);
+
+//Transitions
+function Transition(room) {
+	var inst = instance_create_depth(0,0,0,obj_transition);
+	inst.target = room;
+}

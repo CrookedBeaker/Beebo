@@ -23,7 +23,7 @@ if !menu { //Press Start!
 	if keyboard_check_pressed(ord("Z")) {
 		switch index {
 			case 0:
-				room_goto(rm_lvl_intro);
+				Transition(rm_lvl_intro);
 				break;
 			case 1:
 				//???
