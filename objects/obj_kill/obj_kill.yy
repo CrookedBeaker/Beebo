@@ -4,7 +4,7 @@
     "path": "sprites/spr_kill/spr_kill.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

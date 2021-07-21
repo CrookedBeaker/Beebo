@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Menus and UI",
+    "path": "folders/Objects/Menus and UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_transition",

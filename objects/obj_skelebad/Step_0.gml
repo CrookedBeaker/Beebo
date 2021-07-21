@@ -10,6 +10,8 @@ if (direction > 90 && direction < 270) {
 if instance_exists(obj_beebo) {
 
 if !noticed { //Look for player
+	image_index = 0;
+	
 	if (!collision_line(x,y,obj_beebo.x,obj_beebo.y,obj_collision,0,0) && distance_to_object(obj_beebo) < 64) {
 		noticed = true;
 	}

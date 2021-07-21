@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
+    "name": "spr_soundtrigger",
+    "path": "sprites/spr_soundtrigger/spr_soundtrigger.yy",
   },
   "solid": false,
   "visible": false,

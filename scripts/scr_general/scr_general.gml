@@ -12,7 +12,7 @@ function SetSFXGain(val) {
 function SetDefaultGlobals(){
 	global.pause = false;
 	
-	global.knife = true;
+	global.knife = false;
 }
 
 SetDefaultGlobals();
