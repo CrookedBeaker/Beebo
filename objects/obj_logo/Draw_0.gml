@@ -7,7 +7,10 @@ draw_set_font(fnt_main);
 if !menu {
 	draw_set_halign(fa_center);
 	
-	if show {draw_text(64,88,"Press Z")};
+	if show {
+		draw_text(64,88,"Press  ");
+		draw_sprite(spr_keys,0,84,87);
+	}
 } else {
 	draw_set_halign(fa_left);
 	

@@ -2,9 +2,10 @@
   "resources": [
     {"id":{"name":"scr_general","path":"scripts/scr_general/scr_general.yy",},"order":0,},
     {"id":{"name":"tln_knifeget","path":"timelines/tln_knifeget/tln_knifeget.yy",},"order":0,},
-    {"id":{"name":"rm_lvl_intro","path":"rooms/rm_lvl_intro/rm_lvl_intro.yy",},"order":2,},
+    {"id":{"name":"rm_lvl_intro","path":"rooms/rm_lvl_intro/rm_lvl_intro.yy",},"order":0,},
     {"id":{"name":"spr_poof","path":"sprites/spr_poof/spr_poof.yy",},"order":8,},
     {"id":{"name":"obj_flag","path":"objects/obj_flag/obj_flag.yy",},"order":11,},
+    {"id":{"name":"spr_keys","path":"sprites/spr_keys/spr_keys.yy",},"order":14,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":3,},
     {"id":{"name":"tls_main","path":"tilesets/tls_main/tls_main.yy",},"order":0,},
     {"id":{"name":"spr_flag","path":"sprites/spr_flag/spr_flag.yy",},"order":12,},
@@ -17,6 +18,7 @@
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"order":14,},
     {"id":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},"order":0,},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},"order":1,},
+    {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},"order":2,},
     {"id":{"name":"obj_knifeswing","path":"objects/obj_knifeswing/obj_knifeswing.yy",},"order":5,},
     {"id":{"name":"spr_beebo","path":"sprites/spr_beebo/spr_beebo.yy",},"order":0,},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},"order":11,},
@@ -33,6 +35,7 @@
     {"id":{"name":"obj_soundtrigger","path":"objects/obj_soundtrigger/obj_soundtrigger.yy",},"order":13,},
     {"id":{"name":"obj_poof","path":"objects/obj_poof/obj_poof.yy",},"order":3,},
     {"id":{"name":"obj_knifepickup","path":"objects/obj_knifepickup/obj_knifepickup.yy",},"order":4,},
+    {"id":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},"order":5,},
     {"id":{"name":"snd_flag","path":"sounds/snd_flag/snd_flag.yy",},"order":7,},
     {"id":{"name":"obj_respawn","path":"objects/obj_respawn/obj_respawn.yy",},"order":12,},
     {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},"order":2,},
@@ -62,6 +65,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_lvl_intro","path":"rooms/rm_lvl_intro/rm_lvl_intro.yy",},},
@@ -83,6 +87,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Beebo.yy","order":1,"resourceVersion":"1.0","name":"Beebo","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Menus and UI.yy","order":10,"resourceVersion":"1.0","name":"Menus and UI","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/Levels.yy","order":4,"resourceVersion":"1.0","name":"Levels","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
