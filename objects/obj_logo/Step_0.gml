@@ -1,7 +1,7 @@
 /// @description Title menu
 
 if !menu { //Press Start!
-	if keyboard_check_pressed(ord("Z")) {
+	if keyboard_check_pressed(ord("Z")) && flashMax != 5 {
 		alarm[0] = 60;
 		show = false;
 		flash = 1;

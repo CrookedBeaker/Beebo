@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Menus and UI",
+    "path": "folders/Sprites/Menus and UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_transition",

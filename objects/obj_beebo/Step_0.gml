@@ -60,4 +60,9 @@ if (global.knife && keyboard_check_pressed(ord("X")) && !instance_exists(obj_kni
 	audio_play_sound(snd_knifeswing,10,false);
 }
 
+//Pause!
+if ((keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("P"))) && !instance_exists(obj_transition)) {
+	instance_create_depth(0,0,0,obj_pause);
+}
+
 }
