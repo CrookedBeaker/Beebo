@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_collision",
-    "path": "sprites/spr_collision/spr_collision.yy",
+    "name": "spr_roomtransition",
+    "path": "sprites/spr_roomtransition/spr_roomtransition.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_beebo","path":"objects/obj_beebo/obj_beebo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collision",
+  "name": "obj_roomtransition",
   "tags": [],
   "resourceType": "GMObject",
 }

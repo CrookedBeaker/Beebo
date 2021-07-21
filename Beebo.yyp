@@ -1,10 +1,14 @@
 {
   "resources": [
+    {"id":{"name":"obj_skelebad","path":"objects/obj_skelebad/obj_skelebad.yy",},"order":16,},
     {"id":{"name":"scr_general","path":"scripts/scr_general/scr_general.yy",},"order":0,},
     {"id":{"name":"tln_knifeget","path":"timelines/tln_knifeget/tln_knifeget.yy",},"order":0,},
     {"id":{"name":"rm_lvl_intro","path":"rooms/rm_lvl_intro/rm_lvl_intro.yy",},"order":0,},
+    {"id":{"name":"obj_roomtransition","path":"objects/obj_roomtransition/obj_roomtransition.yy",},"order":15,},
     {"id":{"name":"spr_poof","path":"sprites/spr_poof/spr_poof.yy",},"order":8,},
+    {"id":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},"order":1,},
     {"id":{"name":"obj_flag","path":"objects/obj_flag/obj_flag.yy",},"order":11,},
+    {"id":{"name":"spr_roomtransition","path":"sprites/spr_roomtransition/spr_roomtransition.yy",},"order":17,},
     {"id":{"name":"spr_keys","path":"sprites/spr_keys/spr_keys.yy",},"order":0,},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":3,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":3,},
@@ -71,6 +75,7 @@
     {"roomId":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_lvl_intro","path":"rooms/rm_lvl_intro/rm_lvl_intro.yy",},},
+    {"roomId":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
