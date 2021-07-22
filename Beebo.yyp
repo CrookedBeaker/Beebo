@@ -17,6 +17,7 @@
     {"id":{"name":"snd_knifeget","path":"sounds/snd_knifeget/snd_knifeget.yy",},"order":2,},
     {"id":{"name":"spr_knife_swing","path":"sprites/spr_knife_swing/spr_knife_swing.yy",},"order":5,},
     {"id":{"name":"spr_skelebad","path":"sprites/spr_skelebad/spr_skelebad.yy",},"order":9,},
+    {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},"order":8,},
     {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},"order":0,},
     {"id":{"name":"obj_breakable","path":"objects/obj_breakable/obj_breakable.yy",},"order":6,},
     {"id":{"name":"spr_beebo_item","path":"sprites/spr_beebo_item/spr_beebo_item.yy",},"order":4,},
@@ -111,7 +112,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.570",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Beebo",

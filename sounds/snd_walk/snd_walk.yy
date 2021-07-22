@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_blockbreak.wav",
-  "duration": 0.254286,
+  "soundFile": "snd_walk.wav",
+  "duration": 0.115011,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_blockbreak",
+  "name": "snd_walk",
   "tags": [],
   "resourceType": "GMSound",
 }

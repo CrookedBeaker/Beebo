@@ -44,10 +44,15 @@ y+=vspd;
 if hspd != 0 { //Run
 	sprite_index = spr_beebo_run;
 	image_xscale = sign(hspd);
+	
+	//Make a sound!
+	if (prevImgIndex != floor(image_index) && prevImgIndex%2 = 1) {audio_play_sound(snd_walk,10,false)}
+	prevImgIndex = floor(image_index);
 } else { //Idle
 	sprite_index = spr_beebo;
 }
 if !place_meeting(x,y+1,obj_collision) { //In air
+	audio_stop_sound(snd_walk); //Stop walking sounds
 	sprite_index = (vspd > 0) ? spr_beebo_fall : spr_beebo_jump;
 }
 
