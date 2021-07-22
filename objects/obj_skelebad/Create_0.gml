@@ -9,4 +9,5 @@ function Return() {
 	spd = 0;
 	motion_set(startDir,0);
 	noticed = false;
+	image_index = 0;
 }
