@@ -1,1 +1,1 @@
-global.pause = false;
+SetDefaultGlobals();

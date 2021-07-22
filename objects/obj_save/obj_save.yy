@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_roomtransition",
-    "path": "sprites/spr_roomtransition/spr_roomtransition.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -21,7 +18,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_beebo","path":"objects/obj_beebo/obj_beebo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +28,7 @@
     "path": "folders/Objects/Control.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_roomtransition",
+  "name": "obj_save",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -22,13 +22,13 @@ if !menu { //Press Start!
 	
 	if keyboard_check_pressed(ord("Z")) {
 		switch index {
-			case 0:
-				Transition(rm_lvl_2);
+			case 0: //Start!
+				Transition(rm_lvl_intro);
 				break;
-			case 1:
-				//???
+			case 1: //Load!
+				Transition(loadRoom);
 				break;
-			case 2:
+			case 2: //Options!
 				//?????????????
 				break;
 		}

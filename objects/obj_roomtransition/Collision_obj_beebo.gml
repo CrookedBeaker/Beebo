@@ -1,2 +1,2 @@
 /// @description Go!
-Transition(room+1);
+Transition(room_next(room));
