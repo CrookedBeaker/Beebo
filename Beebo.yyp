@@ -51,10 +51,12 @@
     {"id":{"name":"spr_beebo_run","path":"sprites/spr_beebo_run/spr_beebo_run.yy",},"order":1,},
     {"id":{"name":"spr_kill","path":"sprites/spr_kill/spr_kill.yy",},"order":4,},
     {"id":{"name":"snd_knifeswing","path":"sounds/snd_knifeswing/snd_knifeswing.yy",},"order":4,},
+    {"id":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},"order":2,},
     {"id":{"name":"spr_knife_beam","path":"sprites/spr_knife_beam/spr_knife_beam.yy",},"order":6,},
     {"id":{"name":"snd_fall","path":"sounds/snd_fall/snd_fall.yy",},"order":6,},
     {"id":{"name":"spr_tiles","path":"sprites/spr_tiles/spr_tiles.yy",},"order":7,},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":0,},
+    {"id":{"name":"obj_blockrespawn","path":"objects/obj_blockrespawn/obj_blockrespawn.yy",},"order":17,},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},"order":0,},
   ],
   "Options": [
@@ -77,6 +79,7 @@
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_lvl_intro","path":"rooms/rm_lvl_intro/rm_lvl_intro.yy",},},
     {"roomId":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
+    {"roomId":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

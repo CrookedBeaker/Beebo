@@ -11,8 +11,8 @@ function SetSFXGain(val) {
 
 function SetDefaultGlobals(){
 	global.pause = false;
-	
-	global.knife = false;
+	global.knife = true;
+	global.blockRespawn = false;
 }
 
 SetDefaultGlobals();
