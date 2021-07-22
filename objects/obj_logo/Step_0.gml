@@ -20,6 +20,8 @@ if !menu { //Press Start!
 	if index < 0 {index = 2};
 	if index > 2 {index = 0};
 	
+	if !options { //Normal menu
+	
 	if keyboard_check_pressed(ord("Z")) {
 		switch index {
 			case 0: //Start!
@@ -29,9 +31,42 @@ if !menu { //Press Start!
 				Transition(loadRoom);
 				break;
 			case 2: //Options!
-				//?????????????
+				options = true;
+				index = 0;
 				break;
 		}
+	}
+	
+	} else { //Options!
+	
+	if index = 0 { //Adjust sound!
+		
+		if keyboard_check_pressed(vk_left) {
+			SetSFXGain(clamp(global.sound-0.1,0,1));
+		}
+		
+		if keyboard_check_pressed(vk_right) {
+			SetSFXGain(clamp(global.sound+0.1,0,1));
+		}
+		
+	} else if index = 1 { //Adjust music!
+		
+		if keyboard_check_pressed(vk_left) {
+			SetMusicGain(clamp(global.music-0.1,0,1));
+		}
+		
+		if keyboard_check_pressed(vk_right) {
+			SetMusicGain(clamp(global.music+0.1,0,1));
+		}
+		
+	}
+	
+	if (keyboard_check_pressed(ord("Z")) && index = 2) { //Save and go back :3
+		SaveSound();
+		options = false;
+		index = 0;
+	}
+	
 	}
 }
 
