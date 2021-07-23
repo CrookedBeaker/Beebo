@@ -7,6 +7,7 @@ function SetSFXGain(val) {
 	audio_sound_gain(snd_knifeget,val,0);
 	audio_sound_gain(snd_knifeswing,val,0);
 	audio_sound_gain(snd_land,val,0);
+	audio_sound_gain(snd_bleep,val,0);
 	
 	global.sound = val;
 }

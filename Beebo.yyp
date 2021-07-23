@@ -21,6 +21,7 @@
     {"id":{"name":"spr_crystal","path":"sprites/spr_crystal/spr_crystal.yy",},"order":19,},
     {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},"order":8,},
     {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},"order":0,},
+    {"id":{"name":"snd_bleep","path":"sounds/snd_bleep/snd_bleep.yy",},"order":10,},
     {"id":{"name":"obj_breakable","path":"objects/obj_breakable/obj_breakable.yy",},"order":6,},
     {"id":{"name":"spr_beebo_item","path":"sprites/spr_beebo_item/spr_beebo_item.yy",},"order":4,},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"order":4,},

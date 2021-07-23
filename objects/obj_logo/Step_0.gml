@@ -10,11 +10,11 @@ if !menu { //Press Start!
 } else { //Select an option :3
 	if keyboard_check_pressed(vk_down) {
 		index++;
-		//Play menu sound
+		audio_play_sound(snd_bleep,10,false);
 	}
 	if keyboard_check_pressed(vk_up) {
 		index--;
-		//Play menu sound
+		audio_play_sound(snd_bleep,10,false);
 	}
 	
 	if index < 0 {index = 2};
@@ -34,6 +34,7 @@ if !menu { //Press Start!
 			case 2: //Options!
 				options = true;
 				index = 0;
+				audio_play_sound(snd_bleep,10,false);
 				break;
 		}
 	}
@@ -44,20 +45,24 @@ if !menu { //Press Start!
 		
 		if keyboard_check_pressed(vk_left) {
 			SetSFXGain(clamp(global.sound-0.1,0,1));
+			audio_play_sound(snd_bleep,10,false);
 		}
 		
 		if keyboard_check_pressed(vk_right) {
 			SetSFXGain(clamp(global.sound+0.1,0,1));
+			audio_play_sound(snd_bleep,10,false);
 		}
 		
 	} else if index = 1 { //Adjust music!
 		
 		if keyboard_check_pressed(vk_left) {
 			SetMusicGain(clamp(global.music-0.1,0,1));
+			audio_play_sound(snd_bleep,10,false);
 		}
 		
 		if keyboard_check_pressed(vk_right) {
 			SetMusicGain(clamp(global.music+0.1,0,1));
+			audio_play_sound(snd_bleep,10,false);
 		}
 		
 	}
@@ -66,6 +71,7 @@ if !menu { //Press Start!
 		SaveSound();
 		options = false;
 		index = 0;
+		audio_play_sound(snd_bleep,10,false);
 	}
 	
 	}
