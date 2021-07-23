@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_knife",
-    "path": "sprites/spr_knife/spr_knife.yy",
+    "name": "spr_crystal",
+    "path": "sprites/spr_crystal/spr_crystal.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_knifepickup",
+    "path": "objects/obj_knifepickup/obj_knifepickup.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,7 +24,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_beebo","path":"objects/obj_beebo/obj_beebo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_knifepickup",
+  "name": "obj_crystal",
   "tags": [],
   "resourceType": "GMObject",
 }

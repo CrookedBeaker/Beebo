@@ -26,6 +26,7 @@ if !menu { //Press Start!
 		switch index {
 			case 0: //Start!
 				Transition(rm_lvl_intro);
+				global.crystals = 0;
 				break;
 			case 1: //Load!
 				Transition(loadRoom);

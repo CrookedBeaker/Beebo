@@ -42,6 +42,7 @@ function SetDefaultGlobals(){
 	global.pause = false;
 	global.knife = false;
 	global.blockRespawn = false;
+	global.crystals = 0;
 }
 
 LoadSound();
