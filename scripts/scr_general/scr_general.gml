@@ -10,6 +10,8 @@ function SetSFXGain(val) {
 	audio_sound_gain(snd_bleep,val,0);
 	
 	global.sound = val;
+	
+	global.sound = round(global.sound*10)/10; //Fix it
 }
 
 function SetMusicGain(val) {
@@ -17,6 +19,8 @@ function SetMusicGain(val) {
 	audio_sound_gain(mus_title,val,0);
 	
 	global.music = val;
+	
+	global.music = round(global.music*10)/10; //Fix it
 }
 
 function LoadSound() {
