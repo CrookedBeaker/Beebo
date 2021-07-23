@@ -6,4 +6,5 @@ obj_beebo.sprite_index = spr_beebo_item;
 
 y -= 8;
 
+audio_pause_all();
 audio_play_sound(snd_knifeget,10,false);

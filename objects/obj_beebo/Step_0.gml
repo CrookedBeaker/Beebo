@@ -1,5 +1,6 @@
 /// @description YO IT'S BEEBO HOLY SHIT
 if !global.pause {
+image_speed = 1;
 
 //Walk around!
 hspd = (keyboard_check(vk_right)-keyboard_check(vk_left))*walkSpd;
@@ -70,4 +71,6 @@ if ((keyboard_check_pressed(vk_escape) || keyboard_check_pressed(ord("P"))) && !
 	instance_create_depth(0,0,0,obj_pause);
 }
 
+} else {
+	image_speed = 0;
 }

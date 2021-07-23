@@ -25,4 +25,6 @@ if !noticed { //Look for player
 } else { //Return to original position upon Beebo's death
 	Return();
 }
+} else {
+	image_speed = 0;
 }

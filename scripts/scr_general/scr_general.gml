@@ -40,7 +40,7 @@ function SaveSound() {
 
 function SetDefaultGlobals(){
 	global.pause = false;
-	global.knife = true;
+	global.knife = false;
 	global.blockRespawn = false;
 }
 
