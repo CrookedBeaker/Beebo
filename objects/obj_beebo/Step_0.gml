@@ -5,14 +5,18 @@ image_speed = 1;
 //Walk around!
 hspd = (keyboard_check(vk_right)-keyboard_check(vk_left))*walkSpd;
 
+//Coyote time!
+coyote = place_meeting(x,y+1,obj_collision) ? coyoteMax : clamp(coyote-1,0,coyoteMax);
+
 //Jump???
 vspd = clamp(vspd+grav,-jumpSpd,5);
 
-if place_meeting(x,y+1,obj_collision) {
+if place_meeting(x,y+1,obj_collision) || coyote != 0 {
 	if keyboard_check_pressed(ord("Z")) {
 		hold = true;
 		vspd = -jumpSpd;
 		if !place_meeting(x,y-1,obj_collision) {audio_play_sound(snd_jump,10,false)};
+		coyote = 0;
 	}
 } else {
 	if (hold && !keyboard_check(ord("Z"))) {
