@@ -1,7 +1,7 @@
 /// @description Menu shit.
-draw_set_halign(fa_left);
-draw_text(0,0,string(global.sound));
-draw_text(0,8,string(global.music));
+//draw_set_halign(fa_left);
+//draw_text(0,0,string(global.sound));
+//draw_text(0,8,string(global.music));
 
 
 draw_set_font(fnt_main);

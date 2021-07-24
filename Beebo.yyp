@@ -9,6 +9,7 @@
     {"id":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},"order":1,},
     {"id":{"name":"obj_flag","path":"objects/obj_flag/obj_flag.yy",},"order":11,},
     {"id":{"name":"spr_roomtransition","path":"sprites/spr_roomtransition/spr_roomtransition.yy",},"order":17,},
+    {"id":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},"order":3,},
     {"id":{"name":"spr_keys","path":"sprites/spr_keys/spr_keys.yy",},"order":0,},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"order":3,},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},"order":3,},
@@ -88,6 +89,7 @@
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_lvl_intro","path":"rooms/rm_lvl_intro/rm_lvl_intro.yy",},},
     {"roomId":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
+    {"roomId":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},},
     {"roomId":{"name":"rm_lvl_4","path":"rooms/rm_lvl_4/rm_lvl_4.yy",},},
   ],
   "Folders": [
