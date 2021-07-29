@@ -25,7 +25,7 @@ if !menu { //Press Start!
 	if keyboard_check_pressed(ord("Z")) {
 		switch index {
 			case 0: //Start!
-				Transition(rm_lvl_intro);
+				Transition(rm_lvl_5);
 				global.crystals = 0;
 				break;
 			case 1: //Load!

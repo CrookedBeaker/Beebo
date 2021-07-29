@@ -10,4 +10,5 @@ function Return() {
 	motion_set(startDir,0);
 	noticed = false;
 	image_index = 0;
+	alarmSet = false;
 }

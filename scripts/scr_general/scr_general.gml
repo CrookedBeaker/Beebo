@@ -7,6 +7,8 @@ function SetSFXGain(val) {
 	audio_sound_gain(snd_knifeget,val,0);
 	audio_sound_gain(snd_knifeswing,val,0);
 	audio_sound_gain(snd_land,val,0);
+	audio_sound_gain(snd_walk,val,0);
+	audio_sound_gain(snd_flag,val,0);
 	audio_sound_gain(snd_bleep,val,0);
 	
 	global.sound = val;
@@ -47,6 +49,7 @@ function SetDefaultGlobals(){
 	global.pause = false;
 	global.knife = false;
 	global.blockRespawn = false;
+	global.enemyRespawn = false;
 	global.crystals = 0;
 }
 

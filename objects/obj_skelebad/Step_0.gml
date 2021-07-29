@@ -27,4 +27,5 @@ if !noticed { //Look for player
 }
 } else {
 	image_speed = 0;
+	motion_set(direction,0);
 }
