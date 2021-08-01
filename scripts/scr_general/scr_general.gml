@@ -19,6 +19,7 @@ function SetSFXGain(val) {
 function SetMusicGain(val) {
 	audio_sound_gain(mus_main,val,0);
 	audio_sound_gain(mus_title,val,0);
+	audio_sound_gain(mus_victory,val,0);
 	
 	global.music = val;
 	

@@ -12,3 +12,5 @@ function Return() {
 	image_index = 0;
 	alarmSet = false;
 }
+
+depth--;
