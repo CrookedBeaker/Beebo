@@ -6,6 +6,7 @@ if !menu { //Press Start!
 		show = false;
 		flash = 1;
 		flashMax = 5;
+		audio_play_sound(snd_flag,10,false);
 	}
 } else { //Select an option :3
 	if keyboard_check_pressed(vk_down) {

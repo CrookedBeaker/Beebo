@@ -29,8 +29,8 @@ function SetMusicGain(val) {
 function LoadSound() {
 	ini_open("Options.sav");
 	
-	global.sound = ini_read_real("Options","sound",0.3);
-	global.music = ini_read_real("Options","music",1);
+	global.sound = ini_read_real("Options","sound",0.5);
+	global.music = ini_read_real("Options","music",0.5);
 	
 	ini_close();
 }
