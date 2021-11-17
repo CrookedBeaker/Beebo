@@ -5,3 +5,9 @@ Progress saves between levels.
 
 This is a little project I decided to take on while I wait for some things for another one of my games to get finished. It took a little over 2 weeks.
 Originally released for HTML5 and Windows.
+
+## Game Downloads
+
+Game Jolt page: https://gamejolt.com/games/beebo/633403 (HTML5 and Windows builds)
+
+Itch page: https://crookedbeaker.itch.io/beebo (Windows only)
